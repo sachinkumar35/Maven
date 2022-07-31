@@ -42,3 +42,17 @@ Please access the <b>central repository</b>. The central repository contains a l
 Maven remote repository is located on the web. Some libraries can be missing from the central repository and may be required to be downloaded from the individual repositories by the firm. 
 
     Eg: JBoss library file needs to be downloaded from the JBoss nexus repository.
+
+# Installation and configuration of Maven project
+
+The key points about Maven Installation and configuration: 
+
+    1. The plugin is being installed from the Eclipse Marketplace. 
+    2. An update URL is used for installation. 
+    3. CCD Permission/Open internet is required to perform the installation through Eclipse Marketplace .
+    4. Installation success can be verified by checking for the availability of Maven preference under the option Window - > Preferences.
+    5. To configure maven in the machine, the <b>MAVEN HOME</b> environment variable has to be set.  
+    6. The variable should contain the path to the maven bin installable. eg: If the installable is in the ath: C:\maven\apache-maven-3.3.9, the environment variable should contain the value: C:\maven\apache-maven-3.3.9\bin 
+    7. The configuration can be verified by opening command prompt and typing mvn -version. 
+    8. The settings.xml file provided by the tools group should be placed inside C:\Users\<<Username>>\.m2. Please download the settings.xml file. 
+    9. The settings.xml file should also be kept inside the conf folder inside the maven bin installable.
