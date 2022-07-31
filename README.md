@@ -56,3 +56,15 @@ The key points about Maven Installation and configuration:
     7. The configuration can be verified by opening command prompt and typing mvn -version. 
     8. The settings.xml file provided by the tools group should be placed inside C:\Users\<<Username>>\.m2. Please download the settings.xml file. 
     9. The settings.xml file should also be kept inside the conf folder inside the maven bin installable.
+
+# Creation and Execution of Maven Project - Demo
+
+Hilights:
+ > Creation of maven project 
+ > Configuration of pom.xml file
+
+Demosteps:
+
+<b> Step 1: </b>Create a maven project in Eclipse IDE. Go to File -> New -> Other.. and search for Maven. Choose Maven Project and lick on Next.
+
+<img src="
