@@ -61,11 +61,10 @@ The key points about Maven Installation and configuration:
 
 Hilights:
 
- Creation of maven project 
- Configuration of pom.xml file
+    Creation of maven project 
+    Configuration of pom.xml file
 
 Demosteps:
 
 <b> Step 1: </b>Create a maven project in Eclipse IDE. Go to File -> New -> Other.. and search for Maven. Choose Maven Project and lick on Next.
 
-<img height="30%" alt="" src="WhatsApp Image 2022-07-31 at 9.46.00 PM.jpeg" />
