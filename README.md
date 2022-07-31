@@ -10,3 +10,19 @@ There are many problems that you may face during the project development which a
 POM in Maven stands for Project Object Model. It is fundamental Unit of Work in Maven. It is an XML file which resides in the base directory of the project as pom.xml. The POM contains information about the project and various configuration detail used by Maven to build the projects. 
 
 POM also contains the goals and plugins. While executing a task or goal, Maven looks for the POM in the current directory. It reads the POM, gets the needed configuration information, then executes the goal.
+
+A maven repository is a directory of packaged JAR file with pom.xml file. Maven searches for dependencies in the repositories. 
+There are 3 types of maven repository: 
+    
+    1. Local Repository 
+    2. Central Repository 
+    3. Remote Repository 
+
+Maven searches for the dependencies in the following order. 
+
+        LOCAL REPOSITORY ---------> CENTRAL REPOSITORY -----------> REMOTE REPOSITORY
+
+Note: If dependency is not found in these repositories, maven stops processing and throws an error.
+
+# Maven Local Repository 
+Maven local repository is located in your local system. It is created by the maven when you run any maven command.
