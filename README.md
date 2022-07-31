@@ -26,3 +26,19 @@ Note: If dependency is not found in these repositories, maven stops processing a
 
 # Maven Local Repository 
 Maven local repository is located in your local system. It is created by the maven when you run any maven command.
+
+By default, maven local repository is <b>%USER_HOME%\.m2</b> directory. 
+
+    For example: C:\Users\<<Username>>\.m2. 
+    
+# Maven Central Repository 
+
+Maven central repository is located on the web. It has been created by the apache maven community itself. 
+
+Please access the <b>central repository</b>. The central repository contains a lot of common libraries that can be viewed by using the search page. 
+
+# Maven Remote Repository 
+
+Maven remote repository is located on the web. Some libraries can be missing from the central repository and may be required to be downloaded from the individual repositories by the firm. 
+
+    Eg: JBoss library file needs to be downloaded from the JBoss nexus repository.
